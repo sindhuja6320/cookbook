@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Recipe Generator</title>
+    <link rel="stylesheet" href="cookbook.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Historical Recipe Generator</h1>
+        <label for="period">Choose a period:</label>
+        <select id="period">
+            <option value="">Select a period</option>
+            <option value="ancientRome">Ancient Rome</option>
+            <option value="medievalEurope">Medieval Europe</option>
+            <option value="colonialAmerica">Colonial America</option>
+            <option value="victorianEngland">Victorian England</option>
+            <option value="1920sAmerica">1920s America</option>
+        </select>
+        <button id="generate">Generate Recipe</button>
+        <div id="recipe" class="recipe"></div>
+        <button id="share" class="share-button" style="display:none;">Share Food</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
